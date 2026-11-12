@@ -1,6 +1,6 @@
 # Colônia Aurora Siger — Sistema Integrado de Energia
 
-**FIAP — Atividade Integradora, Fase 2**
+**FIAP — Atividade Integradora, Fase 3: A Aurora Estabelece os Primeiros Sistemas da Colônia**
 
 | | |
 |---|---|
@@ -58,7 +58,7 @@ reserva caindo —, a decisão ganha uma linha `PREVENTIVO`.
 ## Estrutura
 
 ```
-entrega-fase2/
+aurora-siger-fase3/
 ├── README.md
 ├── requirements.txt        # só pytest, para os testes
 ├── data/
@@ -81,7 +81,8 @@ Python 3.10 ou superior. Nenhuma biblioteca externa é necessária. Se o seu
 sistema não tiver o comando `python`, use `python3`.
 
 ```bash
-cd entrega-fase2
+git clone https://github.com/gustavonakahodo/aurora-siger-fase3
+cd aurora-siger-fase3
 python src/colonia.py               # cenário nominal
 python src/colonia.py economia      # reserva baixa e consumo alto
 python src/colonia.py critico       # reserva quase esgotada
